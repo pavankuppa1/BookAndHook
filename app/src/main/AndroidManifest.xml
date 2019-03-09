@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <manifest android:versionName="1.0" android:versionCode="1" package="com.example.android.bookandhook" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-sdk android:targetSdkVersion="17" android:minSdkVersion="17"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+
+    -<application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:allowBackup="true">
+
+
+    -<activity android:name="com.example.android.bookandhook.MainActivity" android:label="@string/app_name">
+
+
+    -<intent-filter>
+
+    <action android:name="android.intent.action.MAIN"/>
+
+    <category android:name="android.intent.category.LAUNCHER"/>
+
+</intent-filter>
+
+</activity>
+
+    <activity android:name="com.example.android.bookandhook.FirstActivity"/>
+
+    <activity android:name="com.example.android.bookandhook.UserRegisterPage" android:label="@string/title_activity_user_register_page"> </activity>
+
+    <activity android:name="com.example.android.bookandhook.ServiceRegisterPage" android:label="@string/title_activity_service_register_page"> </activity>
+
+    <activity android:name="com.example.android.bookandhook.UserMain_Page" android:label="@string/title_activity_user_main__page"> </activity>
+
+    <activity android:name="com.example.android.bookandhook.Userrequests" android:label="@string/title_activity_user_first_page"> </activity>
+
+    <activity android:name="com.example.android.bookandhook.ServiceView" android:label="@string/title_activity_service_view"> </activity>
+
+    <activity android:name="com.example.android.bookandhook.ServicePersonDetails" android:label="@string/title_activity_service_person_details"> </activity>
+
+    <activity android:name="com.example.android.bookandhook.User_MyBookings" android:label="@string/title_activity_user__my_bookings"> </activity>
+
+    <activity android:name="com.example.android.bookandhook.Service_ChooseOption" android:label="@string/title_activity_service__choose_option"> </activity>
+
+    <activity android:name="com.example.android.bookandhook.UserRequestDetails" android:label="@string/title_activity_user_request_details"> </activity>
+
+    <activity android:name="com.example.android.bookandhook.UpdateProfDetails"/>
+
+</application>
+
+</manifest>

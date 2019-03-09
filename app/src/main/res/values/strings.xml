@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Book&amp;Hook</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="buttext">Login</string>
+    <string name="title_activity_user_register_page">UserRegisterPage</string>
+    <string name="title_activity_service_register_page">ServiceRegisterPage</string>
+    <string name="title_activity_user_main__page">UserMain_Page</string>
+    <string name="title_activity_service_main__page">ServiceMain_Page</string>
+    <string name="title_activity_user_first_page">UserFirst_page</string>
+    <string name="title_activity_my_pics_">MyPics_Activity</string>
+    <string name="title_activity_full_image">FullImageActivity</string>
+    <string name="title_activity_imagev">ImagevActivity</string>
+    <string name="title_activity_service_view">ServiceView</string>
+    <string name="title_activity_service_person_details">ServicePersonDetails</string>
+    <string name="title_activity_user__my_bookings">User_MyBookings</string>
+    <string name="title_activity_service__choose_option">Service_ChooseOption</string>
+    <string name="title_activity_user_request_details">UserRequestDetails</string>
+    <string name="title_activity_user__status_view">User_StatusView</string>
+    <string name="title_activity_payment">Payment</string>
+    <string name="title_activity_card__payment">Card_Payment</string>
+    <string name="title_activity_pattm__payment">Pattm_Payment</string>
+    <string name="title_activity_view_trans__in_list">ViewTrans_InList</string>
+    <string name="title_activity_message">MessageActivity</string>
+    <string name="desc">Connecting professionals and customers</string>
+
+</resources>
